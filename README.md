@@ -17,14 +17,14 @@
 
 ## Installation
 
-💾 Step 1: Download codebase and other files from current repo
-💾 Step 2: Go to this URL, download and install Python : https://www.python.org/downloads/
-💾 Step 3: Go to this URL, download and install Anaconda : https://www.anaconda.com/download
-💾 Step 4: Open Anaconda prompt and using the requirements.txt file provided create Conda environment using following command : _conda create --name <env> --file <this file>_
-💾 Step 5: Activate new environment : _conda activate <env>_
-💾 Step 6: Open windows command prompt and enter ipconfig -> capture IPv4 Address under **Wireless LAN adapter Wi-Fi**
-💾 Step 7: Open run.py file and update _host_ with above captured IP Address
-💾 Step 8: On earlier opened Anaconda prompt execute command : python run.py
+💾 Step 1: Download codebase and other files from current repo<br/>
+💾 Step 2: Go to this URL, download and install Python : https://www.python.org/downloads/<br/>
+💾 Step 3: Go to this URL, download and install Anaconda : https://www.anaconda.com/download<br/>
+💾 Step 4: Open Anaconda prompt and using the requirements.txt file provided create Conda environment using following command : _conda create --name <env> --file <this file>_<br/>
+💾 Step 5: Activate new environment : _conda activate <env>_<br/>
+💾 Step 6: Open windows command prompt and enter ipconfig -> capture IPv4 Address under **Wireless LAN adapter Wi-Fi**<br/>
+💾 Step 7: Open run.py file and update _host_ with above captured IP Address<br/>
+💾 Step 8: On earlier opened Anaconda prompt execute command : python run.py<br/>
 
 **NOTE :** This will bring up the backend system. Similar procedure needs to be followed for frontend as well to bring it up. Make sure both of them are running under same WiFi connection.
 
