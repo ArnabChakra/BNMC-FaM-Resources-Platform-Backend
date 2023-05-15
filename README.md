@@ -1,5 +1,3 @@
-# BNMC-FaM-Resources-Platform-Backend
-
 <h1 align="center">YouBe-Healthy 👋</h1>
 
 ## Description
