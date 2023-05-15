@@ -17,15 +17,31 @@
 
 ## Installation
 
-💾 Step 1: Open a terminal at the folder
+💾 Step 1: Download codebase and other files from current repo
+💾 Step 2: Go to this URL, download and install Python : https://www.python.org/downloads/
+💾 Step 3: Go to this URL, download and install Anaconda : https://www.anaconda.com/download
+💾 Step 4: Open Anaconda prompt and using the requirements.txt file provided create Conda environment using following command : _conda create --name <env> --file <this file>_
+💾 Step 5: Activate new environment : _conda activate <env>_
+💾 Step 6: Open windows command prompt and enter ipconfig -> capture IPv4 Address under **Wireless LAN adapter Wi-Fi**
+💾 Step 7: Open run.py file and update _host_ with above captured IP Address
+💾 Step 8: On earlier opened Anaconda prompt execute command : python run.py
 
+**NOTE :** This will bring up the backend system. Similar procedure needs to be followed for frontend as well to bring it up. Make sure both of them are running under same WiFi connection.
+
+## Data Update
+
+If you want to upload new/updated data to database follow below steps:
+  * Run database_updater.exe 
+  * Update data in Master_data_v4.csv
+  * Upload above csv, db_cred_uri.txt and private.pem via tool and wait for tool to execute update
+  
 ## Usage
 
 💻 Web application to provide food as medicine resources within a specific area or location
 
 ## Contributing
 
-👪 Upendra Kumar and Arnab Chakravarty
+👪 Arnab Chakravarty and Upendra Kumar
 
 ## Tests
 
@@ -33,10 +49,8 @@
 
 ## Questions
 
-✋ contact shawkumarupendra@outlook.com or chakravartyarnab93@gmail.com<br />
+✋ contact chakravartyarnab93@gmail.com or shawkumarupendra@outlook.com<br />
 <br />
-:octocat: Find me on GitHub: [upendrku](https://github.com/upendrku)<br />
+:octocat: Find me on GitHub: [ArnabChakra](https://github.com/ArnabChakra)<br />
 <br />
-✉️ Email me with any questions: shawkumarupendra@outlook.com<br /><br />
-
-_This README was generated with ❤️ by [README-generator](https://github.com/jpd61/README-generator) 🔥🔥🔥_
+✉️ Email me with any questions: chakravartyarnab93@gmail.com<br /><br />
